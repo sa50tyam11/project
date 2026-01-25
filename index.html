@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects Showcase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="projects">
+
+    <!-- MAIN PROJECT DISPLAY -->
+    <div class="project-main">
+      <img id="mainImage" src="images/project1.jpg" alt="Project Preview" />
+
+      <div class="project-info">
+        <h2 id="mainTitle">E-Commerce Website</h2>
+        <p id="mainDesc">
+          A modern e-commerce platform with cart, authentication, and responsive UI.
+        </p>
+
+        <div class="tech">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="actions">
+          <a id="liveLink" href="#" target="_blank">Live</a>
+          <a id="codeLink" href="#" target="_blank">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- THUMBNAILS -->
+    <div class="project-thumbs">
+
+      <div class="thumb active"
+        data-title="E-Commerce Website"
+        data-desc="A modern e-commerce platform with cart, authentication, and responsive UI."
+        data-img="images/project1.jpg"
+        data-live="#"
+        data-code="#"
+        data-tech="HTML,CSS,JavaScript">
+        <img src="images/project1.jpg" />
+        <p>E-Commerce</p>
+      </div>
+
+      <div class="thumb"
+        data-title="Portfolio Website"
+        data-desc="Personal portfolio showcasing projects and skills."
+        data-img="images/project2.jpg"
+        data-live="#"
+        data-code="#"
+        data-tech="HTML,CSS">
+        <img src="images/project2.jpg" />
+        <p>Portfolio</p>
+      </div>
+
+      <div class="thumb"
+        data-title="Dashboard UI"
+        data-desc="Admin dashboard with charts and analytics UI."
+        data-img="images/project3.jpg"
+        data-live="#"
+        data-code="#"
+        data-tech="HTML,CSS,JS">
+        <img src="images/project3.jpg" />
+        <p>Dashboard</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
